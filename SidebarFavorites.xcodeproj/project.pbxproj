@@ -12,19 +12,26 @@
 		0552EC52E6F42FD0F91E5974 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E62EDE72F4C95ED46D7AD2E /* Config.swift */; };
 		05E0B44F360252FE90D8BF35 /* SymbolCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F407FE40E5EF3E23C47326 /* SymbolCatalog.swift */; };
 		07BA8A489C7EA8A5B7B03893 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0BD2B23709F81767F72E8B18 /* AppIcon.icns */; };
+		0AAAC5A57725B40A59397171 /* Phosphor.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3339C96F211C83D2D891FA8A /* Phosphor.ttf */; };
 		0F8876DFC17A4748651D0F9E /* SFLBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FE2A878EB571297FCD1F44 /* SFLBridge.m */; };
+		1CA511CCA0A31BAD5299D68A /* heroicons.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DD11F87C78981B6C0DE2C5B /* heroicons.json */; };
 		25145B574968F42275F591B8 /* FavoriteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE5DFC21AD083DA6299058D /* FavoriteRow.swift */; };
 		2876AF87BAC9189EE99832FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33EDF718268412B7F826DEC /* ContentView.swift */; };
 		2AA92A2970C9BD177BA88272 /* IconAuthority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0596EA28980B7E1FB021CA /* IconAuthority.swift */; };
 		3449045C82D58B47741DDADC /* AddEditFavoriteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28792F283612A4FC2B12E28 /* AddEditFavoriteSheet.swift */; };
+		372AC133D9DCC632132D4FC9 /* simple_icons.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F836FAAB063E9EA8265997A /* simple_icons.json */; };
 		38474C65792EE4C852E90268 /* SVGGeometryParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9F42D9171878ADD9CC1E1 /* SVGGeometryParser.swift */; };
+		38D01159BEAAC28D53587712 /* lucide.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCE11CDF4B54133FC1D069 /* lucide.ttf */; };
 		439029DFB0848F9B8C785302 /* CoreThemeCatalogWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9F07154C38DA5E6099DCBC /* CoreThemeCatalogWriter.m */; };
 		448B1B61CA3435ADA48BB96F /* MenuBarIconStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD9736476A052F2A50161D /* MenuBarIconStore.swift */; };
 		4ADB732FAB8E4AE835B12766 /* SidebarItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93EADB4893728A39BC0F09 /* SidebarItemManager.swift */; };
+		4B69C1386BD8B96F80E7160D /* SimpleIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF8598E7158719D564ABFA3 /* SimpleIcons.ttf */; };
 		4BAB0D71C84DB2038A79BE40 /* OSTypeAllocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66B275483C4FD4F33A8C20C /* OSTypeAllocator.swift */; };
 		4EE036577423D8C60164D5D4 /* FavoriteEditorWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F19E1C4C373AA935F4520 /* FavoriteEditorWindow.swift */; };
+		60BD3527722BC685E1D5ACFB /* tabler-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B341CC8DCEDC4465B798CBD /* tabler-icons.ttf */; };
 		673744E11E88C626D10983E1 /* SigningIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55902C37DF49AE55C76108F9 /* SigningIdentity.swift */; };
 		72276FCADC9D17B0C0B672F0 /* DiagnosticsReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AADB10E08DC32E4C2702A1 /* DiagnosticsReport.swift */; };
+		76C2D2CDE38A9B7B1EA15C13 /* lucide_icons.json in Resources */ = {isa = PBXBuildFile; fileRef = DEDFA785F7598963DE9148B4 /* lucide_icons.json */; };
 		7CC8DF9C125868C87CAD7785 /* FinderSyncAppGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A50A883319EFEAB89B57 /* FinderSyncAppGenerator.swift */; };
 		7F66D24001BE09AA1AF29DE0 /* SymbolCatalogBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C91408215D5437D152321 /* SymbolCatalogBuilder.swift */; };
 		8240DFB55255FB9A49024408 /* CloudFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D312F98B36C9C2366D4C592F /* CloudFolder.swift */; };
@@ -43,37 +50,47 @@
 		B3A163475D38630811EAA0B6 /* ScreenshotMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A28DBF1CDC2C2F927D7DF9E /* ScreenshotMode.swift */; };
 		B3A8B76884C393684672A21B /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4026AAEABF2BA4DF82DE4E62 /* AppVersion.swift */; };
 		B5630DACD3A3AED9AE4162DB /* AppIcon-master-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = F205EFE110E32159192B8D79 /* AppIcon-master-1024.png */; };
+		BBB91A9E45CBA1EB827624DF /* phosphor_icons.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BB888757AC7739C39909141 /* phosphor_icons.json */; };
 		BC8588899C9973FA08B935D4 /* SVGThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4170519CA0B2F3C4CC1D5 /* SVGThumbnailView.swift */; };
 		C270B44ABC83B25D248FE504 /* HelperIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8BE2C6190D205670F5798516 /* HelperIcon.icns */; };
 		C304D82537E34BE413811D41 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCF6C1FEB4B5E963E2DC81 /* MenuBarView.swift */; };
 		D1CE144B2D1020278777A481 /* SymbolBrowserSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28CC7CA854D6E918A1DDB4 /* SymbolBrowserSheet.swift */; };
 		DA5D5EF17A7593BD90F16600 /* CodeSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3439D15842AECAE640371AE /* CodeSigner.swift */; };
 		DC88BBF64B4600FB0386C0B4 /* UpdateChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F286900734F6179352EEA4 /* UpdateChecker.swift */; };
+		EEED684243DC6C9F728F5F54 /* tabler_icons.json in Resources */ = {isa = PBXBuildFile; fileRef = 5933F13992A7585E0CE34E8D /* tabler_icons.json */; };
 		F32E055B42B58F53E01013A1 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED494CB3B8D7A4460544CF9 /* ConfigManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BB888757AC7739C39909141 /* phosphor_icons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phosphor_icons.json; sourceTree = "<group>"; };
 		0BD2B23709F81767F72E8B18 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		0C4F19E1C4C373AA935F4520 /* FavoriteEditorWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteEditorWindow.swift; sourceTree = "<group>"; };
 		147636508548FA032461B12F /* SidebarFavoritesManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidebarFavoritesManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0596EA28980B7E1FB021CA /* IconAuthority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconAuthority.swift; sourceTree = "<group>"; };
 		1E62EDE72F4C95ED46D7AD2E /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		22FE2A878EB571297FCD1F44 /* SFLBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFLBridge.m; sourceTree = "<group>"; };
+		3339C96F211C83D2D891FA8A /* Phosphor.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Phosphor.ttf; sourceTree = "<group>"; };
 		3A2A9F10C3173CBCF0F69A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CFCE11CDF4B54133FC1D069 /* lucide.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lucide.ttf; sourceTree = "<group>"; };
 		3D28DC8439D24236E5A6D298 /* SymbolTemplateSynthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolTemplateSynthesizer.swift; sourceTree = "<group>"; };
 		3D4B63B58DDC796A0F81626E /* FavoriteSyncCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSyncCoordinator.swift; sourceTree = "<group>"; };
 		4026AAEABF2BA4DF82DE4E62 /* AppVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersion.swift; sourceTree = "<group>"; };
 		46B2A2855190B236E1340ABA /* MigrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationService.swift; sourceTree = "<group>"; };
 		4A7D796C88ED756A0AB06A09 /* SpacerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerStore.swift; sourceTree = "<group>"; };
+		4FF8598E7158719D564ABFA3 /* SimpleIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleIcons.ttf; sourceTree = "<group>"; };
 		52FEE397CF7C0505AB617A9E /* SymbolValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolValidator.swift; sourceTree = "<group>"; };
 		55902C37DF49AE55C76108F9 /* SigningIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigningIdentity.swift; sourceTree = "<group>"; };
 		56994A0E52942D4D13A9956B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		57F4170519CA0B2F3C4CC1D5 /* SVGThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGThumbnailView.swift; sourceTree = "<group>"; };
+		5933F13992A7585E0CE34E8D /* tabler_icons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tabler_icons.json; sourceTree = "<group>"; };
+		5DD11F87C78981B6C0DE2C5B /* heroicons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = heroicons.json; sourceTree = "<group>"; };
+		6B341CC8DCEDC4465B798CBD /* tabler-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tabler-icons.ttf"; sourceTree = "<group>"; };
 		6BE5DFC21AD083DA6299058D /* FavoriteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRow.swift; sourceTree = "<group>"; };
 		7A28DBF1CDC2C2F927D7DF9E /* ScreenshotMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotMode.swift; sourceTree = "<group>"; };
 		7F93EADB4893728A39BC0F09 /* SidebarItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarItemManager.swift; sourceTree = "<group>"; };
 		85F7BD2A6DD1A868DDEFA337 /* custom-icon-template.svg */ = {isa = PBXFileReference; path = "custom-icon-template.svg"; sourceTree = "<group>"; };
 		8BE2C6190D205670F5798516 /* HelperIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = HelperIcon.icns; sourceTree = "<group>"; };
+		8F836FAAB063E9EA8265997A /* simple_icons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = simple_icons.json; sourceTree = "<group>"; };
 		94654D92B069C68956C0342E /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		A4182B79F6FBC4556EECCB96 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		A544DCD893CE8880DABEB363 /* SidebarFavoritesManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarFavoritesManagerApp.swift; sourceTree = "<group>"; };
@@ -90,6 +107,7 @@
 		D531C619C37A346E160EB448 /* CoreThemeCatalogWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreThemeCatalogWriter.h; sourceTree = "<group>"; };
 		D78EB6AA1AB975B77E369ECE /* FinderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderService.swift; sourceTree = "<group>"; };
 		D80C91408215D5437D152321 /* SymbolCatalogBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolCatalogBuilder.swift; sourceTree = "<group>"; };
+		DEDFA785F7598963DE9148B4 /* lucide_icons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lucide_icons.json; sourceTree = "<group>"; };
 		E0AADB10E08DC32E4C2702A1 /* DiagnosticsReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsReport.swift; sourceTree = "<group>"; };
 		E33EDF718268412B7F826DEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E3439D15842AECAE640371AE /* CodeSigner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSigner.swift; sourceTree = "<group>"; };
@@ -112,6 +130,15 @@
 				3A2A9F10C3173CBCF0F69A60 /* Assets.xcassets */,
 				85F7BD2A6DD1A868DDEFA337 /* custom-icon-template.svg */,
 				8BE2C6190D205670F5798516 /* HelperIcon.icns */,
+				5DD11F87C78981B6C0DE2C5B /* heroicons.json */,
+				DEDFA785F7598963DE9148B4 /* lucide_icons.json */,
+				3CFCE11CDF4B54133FC1D069 /* lucide.ttf */,
+				0BB888757AC7739C39909141 /* phosphor_icons.json */,
+				3339C96F211C83D2D891FA8A /* Phosphor.ttf */,
+				8F836FAAB063E9EA8265997A /* simple_icons.json */,
+				4FF8598E7158719D564ABFA3 /* SimpleIcons.ttf */,
+				5933F13992A7585E0CE34E8D /* tabler_icons.json */,
+				6B341CC8DCEDC4465B798CBD /* tabler-icons.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -253,7 +280,6 @@
 				};
 			};
 			buildConfigurationList = 3B7A51A3E29C4AB3BC1AA675 /* Build configuration list for PBXProject "SidebarFavorites" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -263,6 +289,7 @@
 			mainGroup = F861356872C673D130EA4F26;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
+			productRefGroup = CBAF759A8D7D8A87491CDFC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -280,7 +307,16 @@
 				07BA8A489C7EA8A5B7B03893 /* AppIcon.icns in Resources */,
 				B06924040AB9DD750BF9F782 /* Assets.xcassets in Resources */,
 				C270B44ABC83B25D248FE504 /* HelperIcon.icns in Resources */,
+				0AAAC5A57725B40A59397171 /* Phosphor.ttf in Resources */,
+				4B69C1386BD8B96F80E7160D /* SimpleIcons.ttf in Resources */,
 				8CA92AFDA6180712B2D47658 /* custom-icon-template.svg in Resources */,
+				1CA511CCA0A31BAD5299D68A /* heroicons.json in Resources */,
+				38D01159BEAAC28D53587712 /* lucide.ttf in Resources */,
+				76C2D2CDE38A9B7B1EA15C13 /* lucide_icons.json in Resources */,
+				BBB91A9E45CBA1EB827624DF /* phosphor_icons.json in Resources */,
+				372AC133D9DCC632132D4FC9 /* simple_icons.json in Resources */,
+				60BD3527722BC685E1D5ACFB /* tabler-icons.ttf in Resources */,
+				EEED684243DC6C9F728F5F54 /* tabler_icons.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
