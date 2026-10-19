@@ -346,10 +346,20 @@ struct AddEditFavoriteSheet: View {
             }
         }
         .sheet(isPresented: $showingSymbolBrowser) {
-            SymbolBrowserSheet(currentSymbol: iconValue) { picked in
-                iconValue = picked
-                refreshArtwork()
-            }
+            SymbolBrowserSheet(
+                currentSymbol: iconValue,
+                currentIconType: iconType,
+                onPickIcon: { type, value, svgPath in
+                    iconType = type
+                    iconValue = value
+                    if let svgPath {
+                        customSVGPath = svgPath
+                    } else if type == .sfSymbol {
+                        customSVGPath = nil
+                    }
+                    refreshArtwork()
+                }
+            )
         }
         .alert("Can't Use This SVG", isPresented: $showingValidationError) {
             Button("OK", role: .cancel) {}
@@ -423,10 +433,8 @@ struct AddEditFavoriteSheet: View {
             HStack(spacing: 8) {
                 TextField("Symbol Name", text: $iconValue)
                     .textFieldStyle(.roundedBorder)
-                if SymbolCatalog.isAvailable {
-                    Button("Browse All…") { showingSymbolBrowser = true }
-                        .help("Search every SF Symbol this Mac can draw")
-                }
+                Button("Browse 21,000+ Icons…") { showingSymbolBrowser = true }
+                    .help("Search 21,000+ icons across SF Symbols, Tabler, Simple Icons, Lucide, Phosphor & Heroicons")
             }
 
             Text("Enter an SF Symbol name (e.g., folder.fill, star.circle), or browse the full catalog.")
@@ -462,7 +470,10 @@ struct AddEditFavoriteSheet: View {
                         .lineLimit(1)
                         .truncationMode(.middle)
                     Spacer()
-                    Button("Replace...") {
+                    Button("Browse Icons...") {
+                        showingSymbolBrowser = true
+                    }
+                    Button("Replace File...") {
                         showingSVGPicker = true
                     }
                 }
@@ -470,8 +481,13 @@ struct AddEditFavoriteSheet: View {
                 .background(Color(NSColor.controlBackgroundColor))
                 .cornerRadius(6)
             } else {
-                Button(action: { showingSVGPicker = true }) {
-                    Label("Import SVG...", systemImage: "square.and.arrow.down")
+                HStack(spacing: 8) {
+                    Button(action: { showingSymbolBrowser = true }) {
+                        Label("Browse 21,000+ Icons...", systemImage: "sparkles.rectangle.stack")
+                    }
+                    Button(action: { showingSVGPicker = true }) {
+                        Label("Import SVG...", systemImage: "square.and.arrow.down")
+                    }
                 }
             }
 
